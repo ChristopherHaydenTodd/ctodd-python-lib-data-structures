@@ -1,1 +1,1 @@
-anytree
+anytree>=2.6.0
