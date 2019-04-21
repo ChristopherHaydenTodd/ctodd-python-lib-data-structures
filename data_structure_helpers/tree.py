@@ -12,7 +12,15 @@ from anytree import Node, RenderTree
 
 def generate_tree(node_count, max_depth, max_children):
     """
-
+    Purpose:
+        Generate A Random Tree
+    Args:
+        node_count (Int): Count of nodes in generated tree
+        max_depth (Int): Max depth of tree
+        max_children (Int): Max children per node
+    Returns:
+        root_node (Node Obj): Root node of the tree
+        nodes (Dict of Node Obj): Nodes in the tree
     """
 
     nodes = {
